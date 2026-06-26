@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: book-api
-          image: anyiinfo/book-api #1
+          image: anyiinfo/book-api #change
           ports:
             - containerPort: 8080
           resources:
